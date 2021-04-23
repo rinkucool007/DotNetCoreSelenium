@@ -6,7 +6,7 @@ namespace DotNetCoreSelenium
 {
     public class Class1{
 
-       IWebDriver _driver = new ChromeDriver("/home/sandeep/Desktop/DotNetCoreSelenium/");
+       IWebDriver _driver = new ChromeDriver("C:\\DotNetCoreSelenium\\");
         [Fact]
         public void FirstTest()
         {
